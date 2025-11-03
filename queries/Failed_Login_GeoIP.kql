@@ -1,7 +1,15 @@
+// KQL query for mapping failed login attempts to location based on IP address
+
+// Loads GeoIP file for location mapping
 let GeoIPDB_FULL = _GetWatchlist("geoip");
+
+// Collects Windows Security failed login events
 let WindowsEvents = SecurityEvent
     | where  EventID == 4625
     | order by TimeGenerated desc
+    // Adding location data to IP data
     | evaluate ipv4_lookup(GeoIPDB_FULL, IpAddress, network);
+
+// Output of relevant field for map visualzation 
 WindowsEvents
 | project TimeGenerated,Account, IpAddress, cityname, countryname, latitude, longitude 

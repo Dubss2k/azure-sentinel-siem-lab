@@ -12,13 +12,14 @@
   - Microsoft Defender for Cloud
 
 ## Resource Group Infrastructure
+### Showing the underlying objects that are needed to complete this project
   ![](images/Azure_Structure.png)
   
 ## Key Features
   - Detecting failed login attempts using KQL queries.
   - Identified attacker IPs.
   - Visualized attack data on a global map through IP locations in Microsoft Sentinel.
-### KQL Query Showcasing IP Address Attacks Per IP Adress
+### KQL Query Showcasing # of Attacks Per IP Address
   ![](images/KQL_Query.png)
 
   ## Attack Map Visualization

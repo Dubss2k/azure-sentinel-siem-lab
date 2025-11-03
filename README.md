@@ -7,7 +7,7 @@
 ## Tools Used
   - Microsoft Sentinel
   - Log Analytics Workspace
-  - Azure Virtual Machine (Windows)
+  - Azure Virtual Machine Honeypot (Windows)
   - KQL (Kusto Query Language)
   - Microsoft Defender for Cloud
 

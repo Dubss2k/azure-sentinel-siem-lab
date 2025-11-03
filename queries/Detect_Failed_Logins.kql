@@ -1,3 +1,4 @@
-SecurityEvent 
+//KQL query to view all failed login attempts logs
+SecurityEvent
 | project TimeGenerated, Account, EventID, IpAddress, Activity
 | where EventID == 4625

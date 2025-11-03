@@ -20,8 +20,8 @@
   - Identified attacker IPs.
   - Visualized attack data on a global map through IP locations in Microsoft Sentinel.
 ### KQL Query Showcasing # of Attacks Per IP Address
-  ![](images/KQL_Query.png)
+  ![](images/Sample_KQL_Query.png)
 
   ## Attack Map Visualization
   ### This is the final mapping of IP Adresses tied to geolocation
-  ![](images/VM_Attack_Heatmap.png)
+  ![](images/VM_AttackMap.png)

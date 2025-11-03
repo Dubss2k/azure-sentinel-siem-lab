@@ -16,4 +16,4 @@
   - Identified attacker IPs.
   - Visualized attack data on a global map through IP locations in Microsoft Sentinel.
 
-  ![Azure VM Attack Map](images/VM Attack Heatmap.png)
+  ![Azure VM Attack Map](images/VM_Attack_Heatmap.png)
